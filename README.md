@@ -43,12 +43,15 @@ A simple and efficient command-line tool written in Rust for decompressing ZIP a
 3. **Build the Project Using Cargo**
 
    ```bash
-   cargo build --release <folder_name>
+   cargo build --release
    ```
 
-4. **Locate the Executable**
+4. **Run the Project Using Cargo**
 
-   The compiled executable will be located in the `target/release` directory.
+   ```bash
+   cargo run <folder_name>
+   ```
+
 
 ## Example Output
 
