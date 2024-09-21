@@ -52,7 +52,7 @@ A simple and efficient command-line tool written in Rust for decompressing ZIP a
 
 ## Example Output
 
-```
+```bash
 File 0 extracted to "folder/" 
 File 1 extracted to "folder/file.txt" (1024 bytes)
 File 2 comment: This is a sample file
@@ -69,7 +69,7 @@ Ensure that your `Cargo.toml` includes the following dependency:
 
 ```toml
 [dependencies]
-zip = "0.6"
+zip = "2.2.0"
 ```
 
 ## License
