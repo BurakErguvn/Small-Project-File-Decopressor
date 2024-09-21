@@ -43,7 +43,7 @@ A simple and efficient command-line tool written in Rust for decompressing ZIP a
 3. **Build the Project Using Cargo**
 
    ```bash
-   cargo build --release
+   cargo build --release <folder_name>
    ```
 
 4. **Locate the Executable**
